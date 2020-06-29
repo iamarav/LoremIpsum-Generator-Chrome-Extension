@@ -1,0 +1,34 @@
+#ip-container > *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ip-container > label{
+    display: inline-block;
+    margin-top: 5px;
+}
+.ip-btn{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    border: gray solid 1px;
+    border-radius: 5px;
+}
+
+.ip-btn-success{
+    background-color: green;
+}
+.ip-btn-success:hover{
+    background-color: white;
+    color: green;
+    border: gray solid 1px;
+}
+.ip-btn-general{
+    margin-left: 10px;
+    background-color: blue;
+}
+.ip-btn-general:hover{
+    background-color: white;
+    color: blue;
+    border: gray solid 1px;
+}
